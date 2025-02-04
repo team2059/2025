@@ -147,7 +147,7 @@ public final class Constants {
     // kS: voltage needed to overcome static friction
     // kV: voltage needed to run at constant velocity
     // kA: voltage needed to accelerate
-    public static final SimpleMotorFeedforward driveFF = new SimpleMotorFeedforward(0.17821, 1.9047, 0.14686);
+    public static final SimpleMotorFeedforward driveFF = new SimpleMotorFeedforward(0.17821, 1.9047, 0.16); // 0.14686
 
     /* FOR ROBOTCONFIG AUTO STUFF... */
     public static final double kMass = 30;
@@ -160,10 +160,10 @@ public final class Constants {
 
   public static class AutoConstants {
 
-    public static final double kAutoTranslationP = 5.0;
+    public static final double kAutoTranslationP = 3.5;
     public static final double kAutoTranslationD = 0;
 
-    public static final double kAutoRotationP = 5.0;
+    public static final double kAutoRotationP = 3.0;
     public static final double kAutoRotationD = 0.0;
   }
 
